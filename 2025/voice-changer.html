@@ -18,8 +18,7 @@
     <div id="background" class="parchment-background"></div>
 
     <main>
-        <div class="flex-container"><div class="container">
-
+        <div class="container">
 
         <h1>Live Voice Changer</h1>
 
@@ -91,14 +90,14 @@
             <li>
                 <h4>Starting Element</h4>
                 <p>Open up Element, you should see a blank canvas where you can add VSTs.</p>
-                <img src="./voice-changer-assets/step_1.jpg" width="500px"/>
+                <img class="content-image" src="./voice-changer-assets/step_1.jpg"/>
             </li>
             <li>
                 <h4>Testing out your Mic and Speakers</h4>
                 <p>In Element each module has Inputs and Outputs. Green squares represent audio, Orange represents MIDI, for this tutorial I will just talk about Audio. Any square on the bottom of a module is an output, squares on the top of a module are inputs. To connect an output of one module to the input of another you can click on the output square and drag to an input square.</p>
                 <p>Connect the "Audio In" module to the "Audio Out" module. Check your Audio Preferences in Element to ensure you have your mic and speakers selected correctly. Once your mic and speakers are selected try talking, you should hear your voice repeated back to you. </p>
                 <p>At any time you can right click the "Audio In" module and disable it so you don't continuously hear yourself.</p>
-                <img src="./voice-changer-assets/preferences.jpg" width="500px"/>
+                <img class="content-image" src="./voice-changer-assets/preferences.jpg"/>
             </li>
             <li>
                 <h4>Add your VSTs</h4>
@@ -111,7 +110,7 @@
                 <p>Right click your canvas and add choose TB_Reverb_v3 from your Plugins list.</p>
                 <p>Connect "Audio In" -> "TB_Reverb_v3" -> "Audio Out" as shown here.</p>
                 <p>If all went right if you talk you should hear your voice with some nice reverb. To see the Reverb options you can double click on the "TB_Reverb_v3" module.</p>
-                <img src="./voice-changer-assets/reverb.jpg" width="500px"/>
+                <img class="content-image" src="./voice-changer-assets/reverb.jpg"/>
             </li>
         </ol>
 
@@ -122,16 +121,16 @@
 
             <p>I am passing the audio input through a noise gate so it only outputs noise above a certain volume to cut out background noise. After that it goes into three pitch shifters to spread out the pitch of my voice. These all get put into a mixer to adjust the volume of each pitched voice. I then pass that to the reverb and a compressor.</p>
 
-            <img src="./voice-changer-assets/He Who Hungers.jpg" width="500px"/>
+            <img class="content-image" src="./voice-changer-assets/He Who Hungers.jpg"/>
 
             <p>And here are all of those modules expanded out so you can see the settings I used. Only one not here is the compressor as I ended up not needing it.</p>
 
-            <img src="./voice-changer-assets/VSTs.jpg" width="500px"/>
+            <img class="content-image" src="./voice-changer-assets/VSTs.jpg"/>
         </section>
 
 
         <p>If you followed along you too can impress your friends with a booming, ethereal, otherworldly countenance. If you want to share the magic you can point them here to see how it is done.</p>
-    </div></div>
+    </div>
     </main>
 </body>
 </html>
