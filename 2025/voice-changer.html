@@ -24,7 +24,7 @@
         <h1>Live Voice Changer</h1>
 
 
-        <p>One of the things I love about Dungeons and Dragons (and TTRPGs in general) is the creativity they foster at and away from the table. My wife started listening to a Dimension 20 campaign recently and asked me would it be possible to do the cool voice changing stuff they add to those shows, but live at the table. Seeing this as another fun way to kill some time and use my skills in virtual instruments I figured I’d give it a shot. Thankfully everything came together without much issue and I’m happy to say my players loved it (so much so they forced me to put this how-to together so they could steal it for themselves). Here is a quick clip of me using this voice changer to portray the Wooden Stag spirit known as He who Hungers after the party chased him into a dark cornfield (totally thinking of the consequences of their actions). I am playing a spooky haunted forest music track from spotify in the background.</p>
+        <p>One of the things I love about Dungeons and Dragons (and TTRPGs in general) is the creativity they foster at and away from the table. My wife started listening to a Dimension 20 campaign recently and asked me would it be possible to do the cool voice changing stuff they add to those shows, but live at the table. Seeing this as another fun way to kill some time and use my skills in virtual instruments I figured I’d give it a shot. Thankfully everything came together without much issue and I’m happy to say my players loved it (so much so they forced me to put this how-to together so they could steal it for themselves). Here is a quick clip of me using this voice changer to portray the Wooden Stag spirit known as <i>He who Hungers</i> after the party chased him into a dark cornfield (totally thinking of the consequences of their actions). I am playing a spooky haunted forest music track from spotify in the background.</p>
 
         <audio controls id="mwe_player_0_html5_api" preload="metadata" data-mw-tmh="" class="vjs-tech" style="" data-player="fillwindow" playsinline="playsinline" data-durationhint="206" data-mwtitle="The Stag.mp3" data-mwprovider="local" tabindex="-1" role="application"><source src="./voice-changer-assets/The Stag.mp3" type="audio/ogg; codecs=&quot;vorbis&quot;" data-width="0" data-height="0"><source src="./voice-changer-assets/The Stag.mp3" type="audio/mpeg" data-transcodekey="mp3" data-width="0" data-height="0"></audio>
 
@@ -89,24 +89,25 @@
 
         <ol>
             <li>
+                <h4>Starting Element</h4>
                 <p>Open up Element, you should see a blank canvas where you can add VSTs.</p>
                 <img src="./voice-changer-assets/step_1.jpg" width="500px"/>
             </li>
             <li>
-                <p>Testing out your Mic and Speakers</p>
+                <h4>Testing out your Mic and Speakers</h4>
                 <p>In Element each module has Inputs and Outputs. Green squares represent audio, Orange represents MIDI, for this tutorial I will just talk about Audio. Any square on the bottom of a module is an output, squares on the top of a module are inputs. To connect an output of one module to the input of another you can click on the output square and drag to an input square.</p>
                 <p>Connect the "Audio In" module to the "Audio Out" module. Check your Audio Preferences in Element to ensure you have your mic and speakers selected correctly. Once your mic and speakers are selected try talking, you should hear your voice repeated back to you. </p>
                 <p>At any time you can right click the "Audio In" module and disable it so you don't continuously hear yourself.</p>
                 <img src="./voice-changer-assets/preferences.jpg" width="500px"/>
             </li>
             <li>
-                <p>Add your VSTs</p>
+                <h4>Add your VSTs</h4>
                 <p>In the VSTs Used section above the VSTs will either download as an installer or an individual .vst file. If it was an installer go ahead and run that installer. If it is a plain .vst file you can drag and drop it into the empty Element canvas.</p>
                 <p>If you do not see your VSTs after running their installer you can try to find them by clicking View in Element and going to Plugin Manager. There you can click the Scan button and that should pick them up.</p>
                 <p>Once you have installed your VSTs you can add them to the canvas by right clicking and choosing the VST you want from the plugin section</p>
             </li>
             <li>
-                <p>Testing a VST</p>
+                <h4>Testing a VST</h4>
                 <p>Right click your canvas and add choose TB_Reverb_v3 from your Plugins list.</p>
                 <p>Connect "Audio In" -> "TB_Reverb_v3" -> "Audio Out" as shown here.</p>
                 <p>If all went right if you talk you should hear your voice with some nice reverb. To see the Reverb options you can double click on the "TB_Reverb_v3" module.</p>
